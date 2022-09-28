@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* NAVBAR*/
+.img-logo{
+    width: 150px;
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+.nav-bar-hamburger{
+    background-color: white;
+}
+
+.icono-redes:hover{
+    /* --bs-text-opacity: 1 */
+    color: pink !important;
+    opacity: 0.8
+}
+
+ul, li, a{
+    text-decoration: none
+}
+
+/*BANNER PRESENTACION*/
+/* .banner{
+    background-image: linear-gradient(
+        rgb(0,0,0,0.2),
+        rgb(0,0,0,0.2)
+    ),
+    url(../images/img-banner2.jpg);
+    width: 100%;
+    height: 85vh;
+    padding: 25%;
+    position: relative; 
+    -webkit-background-size:cover;
+    -moz-background-size:cover; 
+     -o-background-size:cover; 
+     -msn-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    place-items: center;
+    margin-bottom: 10rem;
+} */
+
+.contenedor{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        rgb(0,0,0,0.2),
+        rgb(0,0,0,0.2)
+    ),
+    url(../images/img-banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+    padding: 25%;
+    margin-bottom: 10rem;
+}
+
+#description-banner{
+    text-align: center;
+    color: pink;
+    font-size: 1.5rem;
+    display:block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 2px solid pink;
+    width: 12ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+@keyframes typing { from { width: 0}}
+@keyframes blink {50% {border-color: transparent}} */
+
+
+
+/*PRESENTACON ACERCA DE MI*/
+.presentacion{
+    margin-bottom:10rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 5em;
+    
+}
+
+h2{
+    text-align: center;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 10rem;
+
+}
+.img-perfil{
+    margin-top: 0.5em;
+    width: 30%;
+    height: auto;
+    border-radius: 0.3em;
+    
+}
+
+.texto-presentacion{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.texto-presentacion, p{
+    margin-top: 1.5em;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+.skills-contenedor{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+i{
+   padding: 0.2em;
+}
+
+.contenedor-iconos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.icono-skills:hover{
+    color: rgb(175, 131, 138) !important;
+    opacity: 0.8
+
+}
