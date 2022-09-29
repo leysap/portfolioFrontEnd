@@ -65,85 +65,150 @@
             <!-- <div class="col-12 texto-presentacion"> -->
               <p class="col-6  texto-presentacion">Soy una apasionada por la tecnologia. Mi curiosidad e einteres en programacion me llevo a formarme a traves de cursos y de forma autodidacta. Me gusta mantenerme actualizada acerca de las nuevas tecnologias. Soy muy perseverante, con muchas ganas de seguir aprendiendo y de poder formarme profesionalmente.
               </p>
+              <button type="button" class="btn btn-outline-dark"><a href="/images/Mi Curriculum.pdf" download="mi-cv.pdf">DESCARGAR CV</a></button>
             <!-- </div> -->
           </div>
       </section>
 
-
+      <!--SECCION SKILLS-->
       <h2 class="titulo">SKILLS</h2>
       <section class="skills-contenedor container-fluid">
-        <div class="contendor-iconos">
+        <div class="contendor-iconos ">
           
-            <i class="icono-skills fa-brands fa-html5 fa-6x"></i>
+            <i class=" icono-skills fa-brands fa-html5 fa-6x"></i>
             <i class="icono-skills fa-brands fa-css3-alt fa-6x"></i>
-            <i class="icono-skills fa-brands fa-square-js fa-6x"></i>
+            <i class=" icono-skills fa-brands fa-square-js fa-6x"></i>
             <i class="icono-skills fa-brands fa-react fa-6x"></i>
-            <i class="icono-skills fa-brands fa-bootstrap fa-6x"></i>
+            <i class=" icono-skills fa-brands fa-bootstrap fa-6x"></i>
             <i class="icono-skills fa-brands fa-sass fa-6x"></i>
-            <i class="icono-skills fa-brands fa-git-alt fa-6x"></i>
-            <i class="icono-skills fa-brands fa-github fa-6x"></i>
-            <i class="icono-skills fa-brands fa-node fa-6x"></i>
-          
-        </div>
-      </section>
-      <section class="seccion-academica">
-        <h2>FORMACIÓN ACADÉMICA</h2>
-        <div>
-          <h3>Instituto Argentino de Protesis Dental (2018-2019)</h3>
-          <p>Tecnica dental</p> <br>
-          <p>Trabajo final: Impresion Digital (Aplicacion de las impresoras 3D en Odontología y Laboratorios Dentales). Córdoba, Argentina.</p>
-        </div>
-        <div>
-          <h3>Universidad Nacional de Cordoba (2014- 2017)</h3>
-          <p>Facultad de Odontología</p><br>
-          <p>Cursado y aprobado segundo año completo. Córdoba, Argentina.</p>
+            <i class=" icono-skills fa-brands fa-git-alt fa-6x"></i>
+            <i class=" icono-skills fa-brands fa-github fa-6x"></i>
+            <i class=" icono-skills fa-brands fa-node fa-6x"></i>
         </div>
       </section>
 
-      <section class="seccion-academica">
-        <h2>FORMACIÓN COMPLEMENTARIA</h2>
-        <div>
-          <h3>ARGENTINA PROGRAMA (Actualidad) </h3>
-          <p>Segunda Parte</p> <br>
-          <p>-Plan Nacional de formación en programacion Ministerio de Desarrollo Productivo.</p>
-        </div>
-        <div>
-          <h3>CURSO DE PYTHON (ACTUALIDAD)</h3>
-          <p>Coderhouse</p><br>
-          <p>Creación de aplicación web (estilo blog) con Python en Django.</p>
-        </div>
-        <div>
-          <h3>Carrera de Desarrollo Front-End</h3>
-          <p>Coderhouse</p><br>
-          <p>-Desarrollo Web: creación de paginas web de reposteria basado en HTML, CSS, SASS, Bootstrap.</p>
-          <p>-Javascript: creación de pagina web de tipo "simulador".</p>
-          <p>-React js: creacion tienda e-commerce utilizando componentes React y Firebase como servidor en la nube.</p>
+
+      <!--SECCION ACADEMICA-->
+      <section class="seccion-academica container">
+        <h2 class="titulo">FORMACIÓN ACADÉMICA</h2>
+        <div class="row">
+          <div class="col-6 div-contenedor">
+            <i class="fa-solid fa-book fa-3x"></i>
+            <h4 class="titulo-secundario">Instituto Argentino de Prótesis Dental<br> (2018-2019)</h4>
+            <p>Técnica dental <br>Trabajo final: Impresion Digital (Aplicacion de las impresoras 3D en Odontología y Laboratorios Dentales). Córdoba, Argentina.</p>
+          </div>
+          <div class="col-6  div-contenedor cont-academico">
+            <i class="fa-solid fa-book fa-3x"></i>
+            <h4 class="titulo-secundario">Universidad Nacional de Córdoba <br> (2014- 2017)</h4>
+            <p>Facultad de Odontología <br>Cursado y aprobado segundo año completo. Córdoba, Argentina.</p>
+          </div>
         </div>
       </section>
 
-      <section>
+        <!--SECCION  COMPLEMENTARIA-->
+      <section class="seccion-complementaria container">
+        <h2 class="titulo">FORMACIÓN COMPLEMENTARIA</h2>
+        <div class="row caja-complementario">
+          <div class="col-6 div-complementario">
+            <i class="fa-solid fa-computer fa-3x"></i>
+            <h4>Argentina Programa </h4>
+            <p>Segunda Parte-Actualidad <br><br>Plan Nacional de formación en programacion Ministerio de Desarrollo Productivo.</p> 
+            <button type="button" class="btn btn-outline-dark"><a href="images/certificacion-argentina-programa.pdf.pdf" download="certificacion-argentina-programa.pdf">VER CERTIFICADO</a></button>
+          </div>
+          <div class="col-6 div-complementario">
+           <i class="fa-solid fa-computer fa-3x"></i>
+            <h4>Curso de Python</h4>
+            <p>Coderhouse - Actualidad<br> <br>Creación de aplicación web (estilo blog) con Python en Django.</p>
+          </div>
+        </div>
+        <div class="row div-carrusel">
+          <div id="carouselExampleControlsNoTouching" class="col-5 carousel slide container-carrusel container" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/certif-desarrollo-web.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/certif-javascript.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/certif-reactjs.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/argentina-programa-certificado.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="col-6 div-grande">
+            <i class="fa-solid fa-computer fa-3x"></i>
+            <h4>Carrera de Desarrollo Front-End</h4>
+            <p>Coderhouse - (Mayo 2021 - Enero 2022)<br><br> -Desarrollo Web: creación de página web de reposteria basado en HTML, CSS, SASS, Bootstrap.<br>-Javascript: creación de pagina web de tipo "simulador". <br> -React js: creacion tienda e-commerce utilizando componentes React y Firebase como servidor en la nube.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="container seccion-proyectos">
+        <h2>PROYECTOS</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Aliveri Pastelería</h5>
+                <p class="card-text">Creación de página web de reposteria basado en HTML, CSS, SASS, Bootstrap.</p>
+                <a href="https://leysap.github.io/proyecto-f/" target="_blank" class="btn btn-primary">VER PROYECTO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Simulador Calculadora Ganancia</h5>
+                <p class="card-text">Creacion de pagina web de tipo "simulador". Utilizando Javascript, HTML, CSS.</p>
+                <a href="https://leysap.github.io/js/" class="btn btn-primary">VER PROYECTO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">A U R O R A</h5>
+                <p class="card-text">Tienda e-commerce utilizando componentes React y Firebase como servidor en la nube.</p>
+                <a href="#" class="btn btn-primary">VER PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!--EXPERIENCIA LABORAL-->
+      <section class="seccion-laboral">
         <h2>EXPERIENCIA LABORAL</h2>
         <div>
           <h3>CORDOBA MOTOS (Julio 2021- Actualidad)</h3>
-          <p>Empleada Administrativa</p><br>
-          <p>Atencion al cliente, cobranzas tanto a minoristas como mayoristas
-            <br>
-            Control y reposicion de stock. Córdoba, Argentina.
-          </p>
+          <p>Empleada Administrativa <br> Atencion al cliente, cobranzas tanto a minoristas como mayoristas <br>Control y reposicion de stock. Córdoba, Argentina.</p>
         </div>
         <div>
           <h3>DUO MERCADO, TIENDA TÉCNICA (Abril 2020 - Noviembre 2020)</h3>
-          <p>Mantenimiento de pagina web.</p><br>
-          <p>Agregado de productos, y reposicion de stock. Córdoba, Argentina.</p>
+          <p>Mantenimiento de pagina web. <br>
+            Agregado de productos, y reposicion de stock. Córdoba, Argentina.</p>
         </div>
         <div>
           <h3>"FACETAS" LABORATORIO DENTAL (2017- 2020)</h3>
           <p>Encargada en el área de confeccion y reparacion de Protesis Removibles de acrilico y protesis flexibles de poliamida y acrilato. Cordoba, Argentina</p>
         </div>
       </section>
-          
 
-    
+
+      
+          
   <!-- Modal -->
   <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -172,9 +237,16 @@
 
 
 <footer>
-  <h2>
-    AQUI ESTA EL FOOTER
-  </h2>
+  <div class="div-footer">
+    <a class="navbar-brand" href="#">
+      <img src="./images/APLogo-20-20.png" class="img-logo" alt="Logo" >
+  </a>
+    <h2>PORTFOLIO LEYSA POZO</h2>
+
+
+
+  </div>
+  
 </footer>
 
 
